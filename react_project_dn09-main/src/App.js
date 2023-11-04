@@ -11,12 +11,22 @@ import FontSize from "./Components/StateComponent/FontSize";
 import ChangeColorHouse from "./Components/StateComponent/ChangeColorHouse";
 import XemChiTietSP from "./Components/Props/XemChiTietSP";
 import BTGioHang from "./Components/BTGioHang/BTGioHang";
+import CountRedux from "./Components/DemoRedux/count-redux";
+import ChangeColorBox from "./Components/DemoRedux/Change-color-box/change-color-box";
+// import GameXucXac from "./Components/DemoRedux/game-xuc-xac/game-xuc-xac";
+import ReactForm from "./Components/React-form/react-form";
+import LifeCycle from "./Components/life-cycle";
 
 // App : component chính, component cha, chứa các component con
 function App() {
   return (
-    <div className="App container">
-      <BTGioHang />
+    <div>
+      <LifeCycle />
+      {/* <ReactForm /> */}
+      {/* <GameXucXac /> */}
+      {/* <ChangeColorBox /> */}
+      {/* <CountRedux /> */}
+      {/* <BTGioHang /> */}
       {/* <XemChiTietSP/> */}
       {/* <ChangeColorHouse /> */}
       {/* <FontSize /> */}

@@ -1,0 +1,47 @@
+@font-face {
+  font-family: Pony;
+  src: url("../../../../public/font/Pony.ttf");
+}
+
+body {
+  font-family: Pony;
+}
+
+.game-xuc-xac {
+  background-image: url("../../../../public/img/xucxac/bgGame.png");
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+}
+
+.game-xx-container {
+  width: 660px;
+  margin: 0 auto;
+}
+
+h1 {
+  font-size: 60;
+  color: black;
+}
+.btn-xx {
+  width: 150px;
+  height: 150px;
+  background-color: purple;
+  color: white;
+}
+
+img {
+  width: 50px;
+  height: 50px;
+}
+
+.ket-qua {
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+}
+
+.play-game {
+  margin: 0 auto;
+  display: flex;
+}
